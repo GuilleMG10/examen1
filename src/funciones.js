@@ -23,4 +23,24 @@ function convertir_texto_a_minusculas(texto)
 {
     return texto.toLowerCase();
 }
-export {devolverTexto,devolver_una_palabra_por_posicion,convertir_texto_a_minusculas};
+function contar_cantidad_palabars(texto)
+{
+    let cont=1;
+    for(let i=0;i<texto.length ;i++)
+    {
+        if(texto[i]==" " || texto[i]=="." || texto[i]=="," || texto[i]==";" || texto[i]=="-")
+        {
+            cont=cont+1;
+        }
+    }
+    return cont;
+}
+function contar_apariciones(texto)
+{
+    
+    while(true)
+    {
+        
+    }   
+}
+export {devolverTexto,devolver_una_palabra_por_posicion,convertir_texto_a_minusculas,contar_cantidad_palabars};
