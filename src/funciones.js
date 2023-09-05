@@ -19,4 +19,8 @@ function devolver_una_palabra_por_posicion(texto,pos)
     }
     return palabra;
 }
-export {devolverTexto,devolver_una_palabra_por_posicion};
+function convertir_texto_a_minusculas(texto)
+{
+    return texto.toLowerCase();
+}
+export {devolverTexto,devolver_una_palabra_por_posicion,convertir_texto_a_minusculas};
