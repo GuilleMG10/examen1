@@ -13,6 +13,13 @@ describe("Funciones", () => {
   it("deberia devolver la cantidad de palabras en el text", () => {
     expect(contar_cantidad_palabars("El PASSWORD")).toEqual(2);
   });
+  it("deberia devolver la cantidad de palabras en el text", () => {
+    expect(contar_cantidad_palabars("El PASSWORD")).toEqual(2);
+  });
+  it("deberia devolver la cantidad de apariciones ", () => {
+    expect(contar_cantidad_palabars("El password de mi cuenta es PASSWORD. Es un password de poco cuidado")).toEqual(["el",1]);
+  });
   
   
+
 });
